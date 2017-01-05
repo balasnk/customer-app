@@ -1,0 +1,10 @@
+{
+  "Cloudant-DS": {
+    "url": "https://940740f3-1ae1-41f5-82d0-faa16be0d8e9-bluemix:b4822e8512ce3cea7b39c8fa76607e8a1e0d5d943cc01f49cd2cfe7f066ee363@940740f3-1ae1-41f5-82d0-faa16be0d8e9-bluemix.cloudant.com",
+    "database": "customer",
+    "username": "940740f3-1ae1-41f5-82d0-faa16be0d8e9-bluemix",
+    "password": "b4822e8512ce3cea7b39c8fa76607e8a1e0d5d943cc01f49cd2cfe7f066ee363",
+    "name": "Cloudant-DS",
+    "connector": "cloudant"
+  }
+}

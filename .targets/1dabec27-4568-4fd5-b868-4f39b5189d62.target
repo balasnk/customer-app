@@ -1,0 +1,90 @@
+type: bluemix
+server:
+  displayName: United Kingdom
+  name: eu-gb
+  host: eu.apiconnect.ibmcloud.com
+org:
+  url: 'https://eu.apiconnect.ibmcloud.com/v1/orgs/5848f92a0cf25a07b6be4511'
+  id: 5848f92a0cf25a07b6be4511
+  name: balaskriinibmcom-hackathon
+  status: active
+  orgType: apiProvider
+  displayName: balaskri@in.ibm.com (hackathon)
+  externalOrgId: 9269236a-a5e4-41f7-8dd5-49f06d136f15
+  externalInviteOverride: 'https://new-console.eu-gb.bluemix.net/apis/catalog/invitation'
+  externalSpaceId: 9269236a-a5e4-41f7-8dd5-49f06d136f15
+  externalNativeOrgId: 9bb5863f-0944-4b97-abb7-c1080e6190ad
+  advPortalOverride: true
+  extUaaAuthenticated: false
+  requiresSSLClientCertCheck: false
+  dormant: false
+catalog:
+  id: 5848f9dc0cf250f8a41e85b4
+  shortName: hackathon
+  name: hackathon
+  sandbox: true
+  spaces: []
+app:
+  metadata:
+    guid: f433cfc7-96c4-4183-b3d6-3754b1147de1
+  entity:
+    guid: f433cfc7-96c4-4183-b3d6-3754b1147de1
+    name: hackathon-app
+    routes:
+      - guid: 86ff2a5a-e216-4bda-bd8c-7ce465353480
+        host: apiconnect-f433cfc7-96c4-4183-b3d6-3754b1147de1
+        port: null
+        path: ''
+        domain:
+          guid: a9774a05-ea83-401b-84e0-f916344ec1ee
+          name: balaskriinibmcom-hackathon.apic.eu-gb.mybluemix.net
+    running_instances: 0
+    services: []
+    available_domains:
+      - guid: a9774a05-ea83-401b-84e0-f916344ec1ee
+        name: balaskriinibmcom-hackathon.apic.eu-gb.mybluemix.net
+        owning_organization_guid: 9bb5863f-0944-4b97-abb7-c1080e6190ad
+      - guid: 75049093-13e9-4520-80a6-2d6fea6542bc
+        name: eu-gb.mybluemix.net
+        router_group_guid: null
+        router_group_type: null
+    production: false
+    space_guid: 9269236a-a5e4-41f7-8dd5-49f06d136f15
+    stack_guid: 423dd340-c07e-44c2-b7fb-601c10fd32d3
+    buildpack: null
+    detected_buildpack: null
+    environment_json: {}
+    memory: 256
+    instances: 1
+    disk_quota: 1024
+    state: STOPPED
+    version: 2393012d-c63c-467c-a7b2-e613e18940e3
+    command: null
+    console: false
+    debug: null
+    staging_task_id: null
+    package_state: PENDING
+    health_check_type: port
+    health_check_timeout: null
+    staging_failed_reason: null
+    staging_failed_description: null
+    diego: false
+    docker_image: null
+    package_updated_at: null
+    detected_start_command: ''
+    enable_ssh: true
+    docker_credentials_json:
+      redacted_message: '[PRIVATE DATA HIDDEN]'
+    ports: null
+id: 1dabec27-4568-4fd5-b868-4f39b5189d62
+target: 1.0.0
+versionOptions:
+  inplaceUpdate: true
+publishApp: true
+workspaceDir:
+  name: customer-app
+  path: 'C:\IBM\gowtham-bala-article\customer-app'
+  id: 6
+  displayName: customer-app
+  type: project
+  projectType: loopback
